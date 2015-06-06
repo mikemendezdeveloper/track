@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import Parse
+import Parse
 
 class categoriesTableViewController: UITableViewController, NewTrackerViewControllerDelegate {
     
@@ -43,7 +43,7 @@ class categoriesTableViewController: UITableViewController, NewTrackerViewContro
         trackers.append(testNoInitialTotal)
         
         //See if parse is working
-        /*
+        
         for index in 0..<trackers.count {
             let tracker = PFObject(className: "intTracker")
             tracker["total"] = trackers[index].total
@@ -52,7 +52,7 @@ class categoriesTableViewController: UITableViewController, NewTrackerViewContro
                 println("Object has been saved.")
             }
         }
-        */
+        
         
         
         // Uncomment the following line to preserve selection between presentations

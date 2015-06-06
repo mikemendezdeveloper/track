@@ -7,7 +7,7 @@
 //
 
 import UIKit
-//import Parse
+import Parse
 
 protocol NewTrackerViewControllerDelegate{
     func addNewTracker(controller:NewTrackerViewController, newTracker: intTracker)
